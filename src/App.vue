@@ -1,9 +1,14 @@
 <script>
-import HelloWorld from './components/AppTiltle.vue'
+import AppTiltle from './components/AppTiltle.vue';
+export default{
+  components: {
+    AppTiltle
+  }
+}
 </script>
 
 <template>
-
+  <AppTiltle/>
 </template>
 
 <style scoped>
